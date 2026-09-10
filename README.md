@@ -38,9 +38,11 @@ cd MediShopTestSuite
 npm install
 npx playwright install chromium
 ```
+Base URL: https://www.way2automation.com
+https://www.way2automation.com/MediShopWebApp/login.html
 
 You can also open `index.html` directly from disk, but a server is recommended —
-it is what `page.goto('/login.html')` in the tests expects.
+it is what `page.goto('/MediShopWebApp/login.html')` in the tests expects.
 
 ### Demo credentials
 

@@ -1,0 +1,27 @@
+{
+  "name": "medishop-webapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MediShop by Way2Automation — a demo pharmacy storefront for practising UI test automation with Playwright.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen http://localhost:3000"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "demo-site",
+    "way2automation",
+    "practice"
+  ],
+  "author": "Way2Automation",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.20.2"
+  }
+}
